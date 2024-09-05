@@ -2,10 +2,14 @@
 
 Install dependency:
 ```
-pip install tkinter
+pip install easygui
+pip install json
 ```
 
 This program generate a JSON file which contain the distribution of the dbs of a plc.
+
+[!CAUTION]  
+The script doesn't work in Visual Studio Code terminal, you have to execute with the terminal "python main.py"
 
 ## Input file:
 The input of the program are csv files that containt the name, type and offset of the differents values of the db.
